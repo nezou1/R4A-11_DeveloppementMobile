@@ -1,7 +1,7 @@
 class CaseModel{
   bool hidden = false;
   bool hasBomb = false;
-  bool hasExplosed = false;
+  bool hasExploded = false;
   bool hasFlag = false;
   int number = 0;
 

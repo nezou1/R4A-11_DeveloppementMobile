@@ -73,7 +73,7 @@ class MapModel {
   }
 
   void explode(int x, int y) {
-    _cases[x][y].hasExplosed = true;
+    _cases[x][y].hasExploded = true;
     revealAll();
   }
 
@@ -95,10 +95,6 @@ class MapModel {
 
   // Getters
   List<List<CaseModel>> get cases => _cases;
-
-
-
-
 
 
 }
